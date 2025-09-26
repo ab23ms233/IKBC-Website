@@ -1,0 +1,146 @@
+:root {
+    --headingcolor: #00BFFF;
+    --textcolor: #CCCCCC;
+    --headingfont: "Oswald", sans-serif;
+    --textfont: "Roboto", sans-serif;
+    --obfont: "Poppins", sans-serif;
+    --obpostcolor: #00FF9C;
+    --textfontsize: 20px;
+}
+
+.section-heading {
+    color: var(--headingcolor);
+    font-family: var(--headingfont);
+    font-size: 45px;
+    text-align: center;
+    padding: 30px 0px;
+    letter-spacing: 4px;
+}
+
+.section {
+    padding: 30px 120px;
+    padding-bottom: 60px;
+}
+
+.section-text {
+    font-size: var(--textfontsize);
+    font-family: var(--textfont);
+    text-align: center;
+}
+
+#present-obs-heading {
+    margin-bottom: 30px;
+}
+
+.present-obs-container {
+    display: flex;
+    gap: 35px;
+}
+
+.ob-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.ob-info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ob-image img {
+    height: 400px;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: var(--obfont);
+    font-size: 25px;
+}
+
+.post {
+    font-family: var(--textfont);
+    font-size: var(--textfontsize);
+    color: var(--obpostcolor);
+}
+
+#events-section {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+#events-heading {
+    padding-bottom: 0px;
+}
+
+.event-container {
+    display: flex;
+    padding: 30px;
+    gap: 80px;
+    border-radius: 30px;
+    background-color: #091d46;
+}
+
+.even-events {
+    flex-direction: row-reverse;
+}
+
+.event-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.event-heading {
+    font-size: 27px;
+    text-align: center;
+    font-family: var(--obfont);
+}
+
+.event-text {
+    text-align: center;
+    font-size: var(--textfontsize);
+    font-family: var(--textfont);
+}
+
+.event-image img {
+    height: 400px;
+    border-radius: 0px 25px;
+}
+
+.intra-batch {
+    color: aquamarine;
+}
+.freshers {
+    color: khaki;
+}
+.inter-batch {
+    color: thistle;
+}
+.auction {
+    color: darkgoldenrod;
+}
+.farewell {
+    color: #c84cf2;
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+.button {
+    font-size: var(--textfontsize);
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    font-family: var(--textfont);
+}
+
