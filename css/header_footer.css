@@ -13,12 +13,14 @@
     --textcolor: #CCCCCC;
     --headingfont: "Inter", sans-serif;
     --footerheadingcolor: #38BDF8;
+    --textfontsize: 20px;
 }
 
 body {
     background-color: var(--backgroundcolor);
     color: var(--textcolor);
     font: var(--textfont);
+    font-size: var(--textfontsize);
 }
 
 #header {
